@@ -1,0 +1,20 @@
+{
+  "name": "learning-to-use-testling",
+  "version": "0.0.0",
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "dependencies": {},
+  "testling": {
+    "browsers": [
+      "ie8",
+      "ie9",
+      "ie10",
+      "firefox/15",
+      "chrome/29",
+      "opera/10"
+    ],
+    "harness": "mocha",
+    "files": "tests/*.js"
+  }
+}
