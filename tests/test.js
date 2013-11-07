@@ -1,6 +1,6 @@
-var assert = require('chai').assert;
+var assert = require('assert');
 
-var squareModule = require('../modules/test-module');
+var squareModule = require('../');
 
 describe('integers', function () {
     it('should square the numbers', function (done) {
